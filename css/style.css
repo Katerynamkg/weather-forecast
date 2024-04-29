@@ -1,0 +1,112 @@
+body{
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #1f1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.weather{
+    width:320px;
+    border-radius: 16px;
+    background: linear-gradient(167deg, #42d2a6 4.7%, #007991 95.98%), #389196;
+    margin-top: 50px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    /*width:100%;*/
+    border-radius: 60px;
+    height: 30px;
+    margin: 30px 20px 30px;
+    box-shadow: 0px 2px 4px #007991FF;
+}
+.input{
+    outline: none;
+    flex-grow: 1;
+    border: none;
+    padding: 5px 10px 5px 20px;
+}
+.input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.form_btn{
+    padding:0 10px;
+}
+#form_btn_svg{
+    fill:#007991;
+    text-shadow:0px 2px 4px #007991FF;
+}
+.weather_description{
+    margin: 15px auto 64px;
+    text-align: center;
+}
+
+.weather_image{
+    margin-top: 10px;
+}
+.weather_city{
+    /*max-width: 95%;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow:0px 2px 4px #007991FF;
+    padding: 5px 10px;
+}
+.weather_temp{
+
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    text-shadow:0px 2px 4px #007991FF;
+}
+
+.weather_details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:0 15px 35px;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    align-self: center;
+    column-gap: 5px;
+}
+.details img{
+    justify-self: center;
+}
+.humidity{
+    width: 40%;
+}
+.wind{
+    padding-right: 10px;
+}
+.details_indexes{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.details_value{
+    font-weight: 300;
+    font-size: 16px;
+}
+/*.none{*/
+/*    display: none;!important;*/
+/*}*/
